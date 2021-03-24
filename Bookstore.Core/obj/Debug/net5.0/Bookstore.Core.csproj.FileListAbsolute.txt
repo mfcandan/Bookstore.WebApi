@@ -1,0 +1,12 @@
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.csprojAssemblyReference.cache
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.AssemblyInfoInputs.cache
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.AssemblyInfo.cs
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.csproj.CoreCompileInputs.cache
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\bin\Debug\net5.0\Bookstore.Core.deps.json
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\bin\Debug\net5.0\Bookstore.Core.dll
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\bin\Debug\net5.0\ref\Bookstore.Core.dll
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\bin\Debug\net5.0\Bookstore.Core.pdb
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.dll
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\ref\Bookstore.Core.dll
+C:\Users\fatih.candan\source\repos\Bookstore.WebApi\Bookstore.Core\obj\Debug\net5.0\Bookstore.Core.pdb
