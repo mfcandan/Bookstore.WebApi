@@ -43,5 +43,11 @@ namespace Bookstore.WebApi.Controllers
             _bookServices.DeleteBook(id);
             return NoContent();
         }
+
+        [HttpPut]
+        public IActionResult UpdateBook(Book book)
+        {
+            return Ok(_bookServices.UpdateBook(book));
+        }
     }
 }

@@ -27,7 +27,13 @@ namespace Bookstore.Core
         public Book GetBook(string id) => _books.Find(book => book.Id == id).First();
 
         public List<Book> GetBooks() => _books.Find(book => true).ToList();
- 
+
+        public Book UpdateBook(Book book)
+        {
+            GetBook(book.Id);
+            _books.ReplaceOne(b => b.Id == book.Id, book);
+            return book;
+        }
     }
 }
 
