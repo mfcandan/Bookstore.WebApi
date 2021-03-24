@@ -36,5 +36,12 @@ namespace Bookstore.WebApi.Controllers
         {
            return Ok(_bookServices.GetBook(id));
         }
+
+        [HttpDelete]
+        public IActionResult DeleteBook(string id)
+        {
+            _bookServices.DeleteBook(id);
+            return NoContent();
+        }
     }
 }

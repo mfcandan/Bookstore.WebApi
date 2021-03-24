@@ -19,6 +19,11 @@ namespace Bookstore.Core
             return book;
         }
 
+        public void DeleteBook(string id)
+        {
+            _books.DeleteOne(book => book.Id == id);
+        }
+
         public Book GetBook(string id) => _books.Find(book => book.Id == id).First();
 
         public List<Book> GetBooks() => _books.Find(book => true).ToList();
@@ -26,4 +31,4 @@ namespace Bookstore.Core
     }
 }
 
-/*https://www.youtube.com/watch?v=MNepwvCcKXA 26:40*/
+
