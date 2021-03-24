@@ -12,6 +12,13 @@ namespace Bookstore.Core
         {
             _books = dbClient.GetBooksCollection();
         }
+
+        public Book AddBook(Book book)
+        {
+            _books.InsertOne(book);
+            return book;
+        }
+
         public List<Book> GetBooks() => _books.Find(book => true).ToList();
  
     }

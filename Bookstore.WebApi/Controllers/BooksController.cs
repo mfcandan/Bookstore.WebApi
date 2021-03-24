@@ -24,5 +24,11 @@ namespace Bookstore.WebApi.Controllers
             return Ok(_bookServices.GetBooks());
         }
 
+        [HttpPost]
+        public IActionResult AddBook(Book book)
+        {
+            _bookServices.AddBook(book);
+            return Ok(book);
+        }
     }
 }
