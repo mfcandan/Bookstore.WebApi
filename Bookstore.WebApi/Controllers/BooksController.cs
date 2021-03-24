@@ -28,7 +28,13 @@ namespace Bookstore.WebApi.Controllers
         public IActionResult AddBook(Book book)
         {
             _bookServices.AddBook(book);
-            return Ok(book);
+            return CreatedAtRoute("GetBook", new { id = book.Id }, book);
+        }
+
+        [HttpGet("{id}", Name ="GetBook")]
+        public IActionResult GetBook(string id)
+        {
+           return Ok(_bookServices.GetBook(id));
         }
     }
 }
